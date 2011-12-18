@@ -1,0 +1,39 @@
+memo GD
+
+(2011.11.10)
+exercise14: NetBeansで開発していたScalaExercise14
+exercise13: NetBeansで開発していたScalaExercise13
+sample1: exercise13をベースに整理する。
+
+(2011.11.12)
+sample2backup: 関数だけで作ろうと挑戦したが、難しい。
+paintComponentに値をうまく渡せない。
+
+sample2 (2011.11.12)
+exercise14をベースに整理。
+一応GDプログラムとして完成。
+
+sample3 (2011.11.13) -> sample3bを使え。
+sample2をさらに整理中。
+ノードやエッジは固定。つまり追加は不可能。
+
+sample3b (2011.11.23)
+sample3bをベースにActorを整理。
+MediatorをActorとして実装。
+
+simple3 (2011.11.13) -> simple3bを使え
+sample3をベースに単純化。インタラクション機能を削除。
+
+simple3b (2011.11.23)
+simple3をベースにActorを整理したもの。
+MediatorをActorとして実装。Mediatorの関数や変数はすべてprivateとした。
+Actorのメッセージはcase classにしている。
+
+(2011.11.14)
+trial3: simple3をベースに、スプリングの付け方を拡張をしてみる。
+距離1と2のノード間にのみスプリングをつけた。
+
+simple04 (未完成2011.11.26)
+http://matarillo.com/layout/を参考にする。
+非常に遅い。
+simple04tmpはオリジナルをScalaに翻訳したもの。UIがない。

@@ -1,0 +1,8 @@
+(2011.11.20)
+Actorのサンプル用にPackageを作成
+
+(sample1, sample2)
+Ping-Pongの例
+
+(sample3)
+

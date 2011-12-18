@@ -1,0 +1,85 @@
+memo
+名称変更 ScalaSamples（旧SampleProgramsScala）
+
+sample01 (2011.10.10) 
+最もシンプルな描画サンプル。のつもり。
+(追加案) グラフィックスのいろいろ。
+(01b) 色のいろいろ。HSB.
+
+sample02 (2011.10.10)
+コマンドライン引数の利用
+(追加案) パラメータ処理
+
+sample3 (2011.10.10)
+スクロールバーの利用。
+
+sample4 (2011.10.10) 
+キャンバスサイズに依存した描画。
+
+sample5 (2011.10.10) 
+ファイルからのデータ読み込み
+
+sample6 (2011.10.15)
+メニュー：ファイル, Mediator
+(6a) MediatorをActorにした。
+(未完成), Applet
+
+sample7 (未完成)
+ApplicationとApplet
+
+sample8 (2011.10.17)
+コントロール：ボタン, BorderPanel, BoxPanel
+(要検討) Split
+(8a) Mediatorをactorにする
+
+sample09 (2011.10.24)
+コントロール：RadioButton, Mediator（デフォールト値）との連携
+(09a) Mediatorをactorにした。
+(09b) Actorを非同期にした。AppもActor。
+(09c) Combobox。初期値設定に改善の余地あり。Controlの位置が悪い。(2011.12.05)
+(09d) Form
+
+sample10 (2011.10.25)
+コントロール：スライダ
+(追加) 値の初期設定, label, データ依存
+(追加b?) コントロールを並べる
+(追加c) コントロールを切り替える
+
+sample11 (2011.10.25)
+タブ
+
+sample12 (2011.10.25) <- sample5
+マウスイベント、選択、MVC
+(12a) ノードのドラッグ
+(12b) Mediatorの利用
+(12b2) MediatorのActorの修正
+(未完成) つかんだ位置を保存したドラッグ
+(12c) ラバーバンドによる選択
+(未完成) 複数選択してドラッグ
+(12e) キーイベント (「focusable = true」が必要）
+
+sample13 (2011.10.25) <- sample5
+タイマー
+(13a)LayoutMakerをactorにする。
+(13b)ChartPanelをactorにする。
+(13c)Mediatorをactorにした。ノードのセレクトやドラッグも可能。
+(13d)滑らかな移動。LayoutMakerによる移動と、ChartPanelのrepaint時の移動を非同期にする。Item.drawを修正すると、一定スピードと、指数スピードを変更できる。
+(cancel)Chartをactorにする。
+(追加)Add Node, Change Color, Change Sizeを組み合わせる。
+
+sample14 (2011.10.29) <- sample13
+クロック (ChartPanelがあまりきれいでない。Mediatorに代行させる方がよいかも)
+
+----------
+グラフィックス
+イベント処理
+アニメーション
+物理モデル
+木構造の処理
+グラフの処理
+
+----------
+TODO
+・JPanelの代わりにBoxにそろえる？
+・Itemサイズを、初期の例では、固定にする。
+
